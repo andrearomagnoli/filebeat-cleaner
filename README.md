@@ -17,3 +17,10 @@ Simply run it using:
 | `-s` or `--summary`                 | Summary of I/O operations.       | Does not show summary.         |
 | `-h` or `--help`                    | Shows help.                      | Does not show help.            |
 
+# Example
+Example of moving files to `/opt/data/filebeat/done` and deleting them afterwards.
+```
+./filebeat_cleaner.rb -s
+find /opt/data/filebeat/done -type f -ctime +1 -delete
+```
+
