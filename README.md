@@ -1,5 +1,5 @@
 # Filebeat Cleaner
-Move completely read files from Filebeat input directory.
+Moving completely read files from Filebeat input directory.
 
 # Usage
 Simply run it using:
